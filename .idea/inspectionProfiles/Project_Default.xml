@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="pydantic_core" />
+            <item index="1" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="2" class="java.lang.String" itemvalue="jose" />
+            <item index="3" class="java.lang.String" itemvalue="fastapi" />
+            <item index="4" class="java.lang.String" itemvalue="pydantic" />
+            <item index="5" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="6" class="java.lang.String" itemvalue="passlib" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E128" />
+          <option value="E127" />
+          <option value="E305" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.nomi" />
+          <option value="tuple.muallif" />
+          <option value="tuple.nashriyoti" />
+          <option value="tuple.izoh" />
+          <option value="models.laptop.market_id" />
+          <option value="schemes.phone.Feild" />
+          <option value="jose.jwt.JWTError" />
+          <option value="functions.results.create_result.total" />
+          <option value="list.execute" />
+          <option value="list.fetchall" />
+          <option value="_random.random.shuffle" />
+          <option value="telegram.InlineKeyboardMarkup" />
+          <option value="telegram.InlineKeyboardButton" />
+          <option value="wikipedia.summary" />
+          <option value="telegram.ext._updater.Updater.idle" />
+          <option value="telegram.ext._updater.Updater.dispatcher" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
